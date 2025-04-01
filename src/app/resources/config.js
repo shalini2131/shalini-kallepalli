@@ -6,6 +6,10 @@ const routes = {
   "/work": true,
   "/blog": true,
   "/gallery": true,
+  "/work/photography-portfolio": true,
+  "/work/parking-management-system": true,
+  "/work/icc-trophy-dashboard": true,
+  "/work/devsecops-tic-tac-toe": true,
 };
 
 // Enable password protection on selected routes
