@@ -1,15 +1,15 @@
 import { InlineCode } from "@/once-ui/components";
 
 const person = {
-  firstName: "Selene",
-  lastName: "Yu",
+  firstName: "Shalini",
+  lastName: "Kallepalli",
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Design Engineer",
+  role: "DevOps Engineer",
   avatar: "/images/avatar.jpg",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  location: "Dallas, TX", // Changed to match the resume
+  languages: ["English"], // Modified based on resume information
 };
 
 const newsletter = {
@@ -17,8 +17,8 @@ const newsletter = {
   title: <>Subscribe to {person.firstName}'s Newsletter</>,
   description: (
     <>
-      I occasionally write about design, technology, and share thoughts on the intersection of
-      creativity and engineering.
+      I occasionally write about cloud technologies, DevOps practices, and share thoughts on the intersection of
+      automation and infrastructure.
     </>
   ),
 };
@@ -29,22 +29,22 @@ const social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/once-ui-system/nextjs-starter",
+    link: "https://github.com/shalini-k", // Placeholder, update with actual GitHub
   },
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
+    link: "http://linkedin.com/in/shalini-kv", // From resume
   },
   {
     name: "X",
     icon: "x",
-    link: "",
+    link: "", // Not provided in resume
   },
   {
     name: "Email",
     icon: "email",
-    link: "mailto:example@gmail.com",
+    link: "mailto:shalukallepalli21@gmail.com", // From resume
   },
 ];
 
@@ -52,11 +52,11 @@ const home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Design engineer and builder</>,
+  headline: <>DevOps Engineer and Cloud Specialist</>,
   subline: (
     <>
-      I'm Selene, a design engineer at <InlineCode>FLY</InlineCode>, where I craft intuitive
-      <br /> user experiences. After hours, I build my own projects.
+      I'm Shalini, a DevOps Engineer at <InlineCode>Cloud Data Technology LLC</InlineCode>, where I build
+      <br /> scalable cloud applications and automate infrastructure. I specialize in AWS and Azure cloud platforms.
     </>
   ),
 };
@@ -74,16 +74,16 @@ const about = {
   },
   calendar: {
     display: true,
-    link: "https://cal.com",
+    link: "https://cal.com", // Placeholder, update with actual calendar link if available
   },
   intro: {
     display: true,
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        Shalini is a Dallas-based DevOps Engineer with over 4 years of experience in supporting, automating, and optimizing
+        mission-critical deployments within Amazon Web Services and Microsoft Azure. She is proficient in leveraging configuration 
+        management, CI/CD, and DevOps processes to enhance efficiency and reliability.
       </>
     ),
   },
@@ -92,41 +92,83 @@ const about = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "Cloud Data Technology LLC",
+        timeframe: "Aug 2024 - Present",
+        role: "Software Engineer",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
+            Built and launched fast, scalable cloud applications using <strong>AWS Lambda</strong>, <strong>EC2</strong>, and <strong>Kubernetes</strong>, 
+            and used <strong>Helm charts</strong> to easily manage and deploy them.
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+            Built <strong>CI/CD pipelines</strong> using <strong>Github Actions</strong>, reducing deployment time by 40%.
+          </>,
+          <>
+            Designed and deployed microservices using <strong>NestJS</strong>, & <strong>Java Spring Boot</strong> enhancing modularity and maintainability.
+          </>,
+          <>
+            Led the development of <strong>secure and fault-tolerant APIs</strong>, supporting enterprise solutions with rapid scaling under high-load scenarios.
+          </>,
+          <>
+            Improved content delivery latency by 25% using <strong>CloudFront</strong>, <strong>SSL certificates</strong>, and optimized routing policies.
           </>,
         ],
-        images: [
-          // optional: leave the array empty if you don't want to display images
-          {
-            src: "/images/projects/project-01/cover-01.jpg",
-            alt: "Once UI Project",
-            width: 16,
-            height: 9,
-          },
-        ],
+        images: [], // Can be populated with project images if available
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: "University of North Texas",
+        timeframe: "Aug 2023 - Dec 2023",
+        role: "IT Student Assistant",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
+            Developed a <strong>cloud-based student portal</strong> using AWS services (<strong>S3, EC2, Lambda, RDS</strong>), 
+            improving uptime and scalability.
           </>,
           <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
+            Integrated <strong>AWS Lex chatbot</strong> for intelligent student support, enhancing accessibility and 
+            user experience for over 10,000 students.
+          </>,
+          <>
+            Automated infrastructure management with <strong>Terraform and AWS CloudWatch</strong>, reducing downtime and 
+            manual interventions by 40%.
+          </>,
+        ],
+        images: [],
+      },
+      {
+        company: "EPAM Systems",
+        timeframe: "Mar 2021 - Aug 2022",
+        role: "Systems Engineer",
+        achievements: [
+          <>
+            Built and deployed <strong>microservices</strong> using <strong>Java</strong> Spring Boot on <strong>AWS EC2</strong>, 
+            ensuring <strong>high availability and performance</strong>.
+          </>,
+          <>
+            Implemented and maintained 5 fully automated server build and deployment processes using <strong>Ansible Playbooks</strong> and Modules.
+          </>,
+          <>
+            Deployed applications using <strong>AWS Elastic Beanstalk</strong>, streamlining release cycles and infrastructure management.
+          </>,
+        ],
+        images: [],
+      },
+      {
+        company: "EPAM Systems",
+        timeframe: "Mar 2020 - Mar 2021",
+        role: "Junior Systems Engineer",
+        achievements: [
+          <>
+            Assisted in containerizing <strong>React.js</strong> applications using <strong>Docker</strong> and orchestrating them with <strong>Kubernetes</strong>.
+          </>,
+          <>
+            Automated <strong>manual infrastructure processes</strong> using <strong>Python & Bash scripting</strong>, reducing <strong>engineering workload</strong> by <strong>40%</strong>.
+          </>,
+          <>
+            Optimized <strong>application performance</strong> through <strong>database indexing (RDS/MySQL/PostgreSQL)</strong>.
+          </>,
+          <>
+            Managed <strong>AWS</strong>-based infrastructure, optimizing cost and performance.
           </>,
         ],
         images: [],
@@ -135,15 +177,16 @@ const about = {
   },
   studies: {
     display: true, // set to false to hide this section
-    title: "Studies",
+    title: "Education",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
+        name: "University of North Texas, Denton, TX",
+        description: <>Master of Science in Computer Science (Aug 2022 - May 2024)<br/>
+        Relevant Coursework: Database Management, Machine Learning, Software Engineering, Data Structures, Algorithms</>,
       },
       {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "Vishnu Institute of Technology, Bhimavaram, India",
+        description: <>Bachelor of Science in Computer Science (Graduation: May 2021)</>,
       },
     ],
   },
@@ -152,36 +195,34 @@ const about = {
     title: "Technical skills",
     skills: [
       {
-        title: "Figma",
-        description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
-        // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-02.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-          {
-            src: "/images/projects/project-01/cover-03.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
+        title: "Languages",
+        description: <>Java, Python, TypeScript, Shell Scripting, Bash</>,
+        images: [],
       },
       {
-        title: "Next.js",
-        description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
-        // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-04.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
+        title: "Cloud Platforms",
+        description: <>AWS (EC2, S3, Lambda, RDS, CloudWatch, API Gateway, IAM, CloudFormation, Route 53, VPC, SNS, SES, Security Groups, AMI, VPC Peering, ELB, Redshift), Azure</>,
+        images: [],
+      },
+      {
+        title: "Frameworks & Web Development",
+        description: <>Spring Boot, REST APIs, Microservices, Apache Tomcat</>,
+        images: [],
+      },
+      {
+        title: "DevOps & CI/CD Tools",
+        description: <>Jenkins, GitHub Actions, CircleCI, Maven, Gradle, Docker, Kubernetes, Terraform, Ansible, Helm Charts</>,
+        images: [],
+      },
+      {
+        title: "Monitoring & Logging",
+        description: <>CloudWatch, ELK Stack, Prometheus, Grafana, New Relic</>,
+        images: [],
+      },
+      {
+        title: "Databases",
+        description: <>MySQL, MongoDB, AWS RDS, SQL Server</>,
+        images: [],
       },
     ],
   },
@@ -189,94 +230,39 @@ const about = {
 
 const blog = {
   label: "Blog",
-  title: "Writing about design and tech...",
+  title: "Writing about cloud and DevOps...",
   description: `Read what ${person.name} has been up to recently`,
   // Create new blog posts by adding a new .mdx file to app/blog/posts
   // All posts will be listed on the /blog route
 };
 
 const work = {
-  label: "Work",
+  label: "Projects",
   title: "My projects",
-  description: `Design and dev projects by ${person.name}`,
+  description: `Cloud and DevOps projects by ${person.name}`,
   // Create new project pages by adding a new .mdx file to app/blog/posts
   // All projects will be listed on the /home and /work routes
 };
 
 const gallery = {
-  label: "Gallery",
-  title: "My photo gallery",
-  description: `A photo collection by ${person.name}`,
-  // Images from https://pexels.com
+  label: "Certifications",
+  title: "My certifications",
+  description: `Professional certifications earned by ${person.name}`,
+  // Images could be replaced with certification logos
   images: [
     {
-      src: "/images/gallery/img-01.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
-    {
-      src: "/images/gallery/img-02.jpg",
-      alt: "image",
+      src: "/images/certifications/aws-certified.jpg", // Placeholder path
+      alt: "AWS Certified: Cloud Practitioner (CLF-C02)",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/img-03.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
-    {
-      src: "/images/gallery/img-04.jpg",
-      alt: "image",
+      src: "/images/certifications/azure-fundamentals.jpg", // Placeholder path
+      alt: "Microsoft Certified: Azure Fundamentals (AZ-900)",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/img-05.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/img-06.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
-    {
-      src: "/images/gallery/img-07.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/img-08.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
-    {
-      src: "/images/gallery/img-09.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/img-10.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/img-11.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
-    {
-      src: "/images/gallery/img-12.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/img-13.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/img-14.jpg",
-      alt: "image",
+      src: "/images/certifications/terraform-associate.jpg", // Placeholder path
+      alt: "HashiCorp Certified: Terraform Associate",
       orientation: "horizontal",
     },
   ],
