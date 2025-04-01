@@ -55,15 +55,18 @@ const home = {
   headline: <>DevOps Engineer</>,
   subline: (
     <>
-      I'm Shalini, a DevOps Engineer at <InlineCode>Service Oritented Solutions LLC</InlineCode>, where I build
-      <br /> scalable cloud applications and automate infrastructure. With over 4 years of experience designing, deploying, and automating cloud-native applications across AWS and Azure,I specialize in infrastructure as code using Terraform, CI/CD pipeline automation with GitHub Actions and Jenkins, and container orchestration with Docker and Kubernetes.
-
-Throughout my career, I’ve led scalable deployments using AWS services like EC2, Lambda, RDS, and CloudWatch—enhancing performance, reliability, and security. Whether it’s building microservices with Spring Boot and NestJS or integrating AI-driven features like AWS Lex chatbots, I’m passionate about solving complex problems and optimizing cloud workflows.
-
-I thrive in dynamic environments where innovation meets impact—bringing a mix of hands-on engineering, automation expertise, and cloud architecture to every project.
+      👋 I'm Shalini, a DevOps Engineer at <InlineCode>Service Oriented Solutions LLC</InlineCode>.
+      <br />☁️ I build scalable, cloud-native apps on AWS and Azure.
+      <br />🛠 I automate infrastructure using Terraform and CI/CD tools like GitHub Actions & Jenkins.
+      <br />🐳 I orchestrate containers with Docker and Kubernetes for efficient deployments.
+      <br />🚀 I’ve led cloud deployments using EC2, Lambda, RDS, and CloudWatch.
+      <br />🧩 I design microservices with Spring Boot and NestJS.
+      <br />🔐 I focus on security, scalability, and performance in every project.
+      <br />💡 I thrive on solving complex problems and driving cloud innovation.
     </>
   ),
 };
+
 
 const about = {
   label: "About",
