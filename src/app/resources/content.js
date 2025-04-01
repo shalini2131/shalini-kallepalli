@@ -8,7 +8,7 @@ const person = {
   },
   role: "DevOps Engineer",
   avatar: "/images/avatar.jpg",
-  location: "Dallas, TX", // Changed to match the resume
+  location: "America/Chicago", // Changed to match the resume
   languages: ["English"], // Modified based on resume information
 };
 
@@ -29,7 +29,7 @@ const social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/shalini-k", // Placeholder, update with actual GitHub
+    link: "https://github.com/shalini2131", // Placeholder, update with actual GitHub
   },
   {
     name: "LinkedIn",
