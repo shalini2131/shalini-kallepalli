@@ -247,9 +247,45 @@ const work = {
   label: "Projects",
   title: "My projects",
   description: `Cloud and DevOps projects by ${person.name}`,
-  // Create new project pages by adding a new .mdx file to app/blog/posts
-  // All projects will be listed on the /home and /work routes
+  projects: [
+    {
+      title: "Photography Portfolio Website",
+      duration: "May 2021 - Aug 2021",
+      org: "EPAM Systems",
+      description:
+        "Responsive static website hosted on AWS S3 and CloudFront, provisioned with Terraform. Includes image carousel, bucket security, and automated cache invalidation.",
+      skills: [
+        "AWS S3", "CloudFront", "Terraform", "HTML", "CSS", "JavaScript"
+      ],
+      repo: "https://github.com/shalini2131/My-photography-portfolio/"
+    },
+    {
+      title: "Parking Management System",
+      duration: "Feb 2021 - Mar 2021",
+      org: "EPAM Systems",
+      description:
+        "Built a parking app using Java and upgraded it to Spring Boot for modularity, scalability, and embedded deployment with unit-tested JUnit modules.",
+      skills: ["Java", "Spring Boot", "JUnit", "JPA", "JDBC", "Tomcat"]
+    },
+    {
+      title: "ICC Trophy Dashboard",
+      duration: "2024",
+      org: "CloudData Technology LLC",
+      description:
+        "Flask-based cricket dashboard showing live scores with confetti wins, deployed via GitHub Actions & Kubernetes on AWS EC2.",
+      skills: ["Flask", "Docker", "Kubernetes", "GitHub Actions", "AWS EC2"]
+    },
+    {
+      title: "Tic-Tac-Toe DevSecOps CI/CD Project",
+      duration: "2024",
+      org: "CloudData Technology LLC",
+      description:
+        "React + TypeScript app deployed with a secure CI/CD pipeline using GitHub Actions, Trivy, ArgoCD, and Kubernetes.",
+      skills: ["React", "TypeScript", "CI/CD", "ArgoCD", "Trivy", "Kubernetes"]
+    }
+  ]
 };
+
 
 const gallery = {
   label: "Certifications",
