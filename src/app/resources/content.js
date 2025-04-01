@@ -37,9 +37,9 @@ const social = [
     link: "http://linkedin.com/in/shalini-kv", // From resume
   },
   {
-    name: "X",
-    icon: "x",
-    link: "", // Not provided in resume
+    name: "Medium",
+    icon: "book",
+    link: "https://medium.com/@shalukallepalli21", // Not provided in resume
   },
   {
     name: "Email",
@@ -52,11 +52,15 @@ const home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>DevOps Engineer and Cloud Specialist</>,
+  headline: <>DevOps Engineer</>,
   subline: (
     <>
-      I'm Shalini, a DevOps Engineer at <InlineCode>Cloud Data Technology LLC</InlineCode>, where I build
-      <br /> scalable cloud applications and automate infrastructure. I specialize in AWS and Azure cloud platforms.
+      I'm Shalini, a DevOps Engineer at <InlineCode>Service Oritented Solutions LLC</InlineCode>, where I build
+      <br /> scalable cloud applications and automate infrastructure. With over 4 years of experience designing, deploying, and automating cloud-native applications across AWS and Azure,I specialize in infrastructure as code using Terraform, CI/CD pipeline automation with GitHub Actions and Jenkins, and container orchestration with Docker and Kubernetes.
+
+Throughout my career, I’ve led scalable deployments using AWS services like EC2, Lambda, RDS, and CloudWatch—enhancing performance, reliability, and security. Whether it’s building microservices with Spring Boot and NestJS or integrating AI-driven features like AWS Lex chatbots, I’m passionate about solving complex problems and optimizing cloud workflows.
+
+I thrive in dynamic environments where innovation meets impact—bringing a mix of hands-on engineering, automation expertise, and cloud architecture to every project.
     </>
   ),
 };
