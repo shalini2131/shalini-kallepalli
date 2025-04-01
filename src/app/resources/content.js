@@ -56,13 +56,13 @@ const home = {
   subline: (
     <>
       👋 I'm Shalini, a DevOps Engineer at <InlineCode>Service Oriented Solutions LLC</InlineCode>.
-      <br />☁️ I build scalable, cloud-native apps on AWS and Azure.
-      <br />🛠 I automate infrastructure using Terraform and CI/CD tools like GitHub Actions & Jenkins.
-      <br />🐳 I orchestrate containers with Docker and Kubernetes for efficient deployments.
-      <br />🚀 I’ve led cloud deployments using EC2, Lambda, RDS, and CloudWatch.
-      <br />🧩 I design microservices with Spring Boot and NestJS.
-      <br />🔐 I focus on security, scalability, and performance in every project.
-      <br />💡 I thrive on solving complex problems and driving cloud innovation.
+      <br />☁️ I build scalable, cloud-native apps on <InlineCode>AWS and Azure.</InlineCode>
+      <br />🛠 I automate infrastructure using <InlineCode>Terraform and CI/CD tools like GitHub Actions & Jenkins.</InlineCode>
+      <br />🐳 I orchestrate containers with <InlineCode>Docker and Kubernetes </InlineCode>for efficient deployments.
+      <br />🚀 I’ve led cloud deployments using <InlineCode>EC2, Lambda, RDS, and CloudWatch.</InlineCode>
+      <br />🧩 I design microservices with <InlineCode>Spring Boot and NestJS.</InlineCode>
+      <br />🔐 I focus on <InlineCode>security, scalability, and performance </InlineCode>in every project.
+      <br />💡 I thrive on solving <InlineCode>complex problems and driving cloud innovation.</InlineCode>
     </>
   ),
 };
