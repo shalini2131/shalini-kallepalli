@@ -81,15 +81,15 @@ const about = {
   },
   calendar: {
     display: true,
-    link: "https://cal.com", // Placeholder, update with actual calendar link if available
+    link: "https://cal.com/shalini-kallepalli", // Placeholder, update with actual calendar link if available
   },
   intro: {
     display: true,
     title: "Introduction",
     description: (
       <>
-        Shalini is a Dallas-based DevOps Engineer with over 4 years of experience in supporting, automating, and optimizing
-        mission-critical deployments within Amazon Web Services and Microsoft Azure. She is proficient in leveraging configuration 
+        I'm a DevOps Engineer with over 4 years of experience in supporting, automating, and optimizing
+        mission-critical deployments within Amazon Web Services and Microsoft Azure. I am proficient in leveraging configuration 
         management, CI/CD, and DevOps processes to enhance efficiency and reliability.
       </>
     ),
